@@ -123,12 +123,6 @@ cd ..
 npm run dev
 ```
 
-**Build a Linux Package (AppImage / .deb):**
-
-```bash
-npm run dist:linux
-```
-
 > **Note:** Building the Electron app on Linux may require additional system tools. For `.deb` packages, ensure `fakeroot` and `dpkg` are installed. For AppImage, no extra tools are needed. If you encounter permission issues, ensure your user has the necessary build tools:
 > ```bash
 > sudo apt install fakeroot dpkg
